@@ -1,6 +1,7 @@
 import pygame 
 pygame.init()
-pygame.mixer.music.load('James Blunt - You_re Beautiful (Video)(MP3_70K).mp3')
+pygame.mixer.init()
+pygame.mixer.music.load('▄▀  Perfect - Ed Sheeran Feat. Beyoncé [Legendado(MP3_160K).mp3')
 pygame.mixer.music.play()
 pygame.event.wait()
 
